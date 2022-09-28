@@ -1,6 +1,6 @@
 package java練習;
 
-import java.time.LocalDate;
+import java.time.LocalDate;//←今回の説明
 
 public class javalesson3 {
   public static void main(String[] ages) {
