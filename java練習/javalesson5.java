@@ -26,10 +26,13 @@ public class javalesson5 {
       //ファイルのパスを指定する
       File file = new File("c:javalesson.java");
 
+    // ファイルが存在しない場合に例外が発生するので確認する
       if(!file.exists()){
         System.out.println("ファイルが存在しません");
         return;
       }
+
+    // BufferedReaderクラスのreadLineメソッドを使って1行ずつ読み込み表示する
       FileReader fileReader = new FileReader(file);
       BufferedReader bufferedReader = new BufferedReader(fileReader);
       String data;
